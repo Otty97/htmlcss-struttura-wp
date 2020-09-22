@@ -5,5 +5,111 @@ padding: 0;
 }
 
 body {
-  background-image: url(natural-pattern.png);
+  background-image: url('img/natural-pattern.png');
+  font-family: 'Roboto' , sans-serif;
+}
+
+.root-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header-top {
+  background-image: url('img/natural-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 6px solid white;
+}
+
+.header-img-logo {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+nav {
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}
+
+ul.menu li {
+  display: inline;
+  height: 45%;
+  line-height: 45%;
+  padding: 0 10px;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+ul.menu li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+
+}
+
+.col-1-1, .col-1-3 {
+  width: 15%
+}
+
+.col-1-2 {
+  width: 55%;
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+.box {
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  color: grey;
+  height:180px;
+}
+
+.lower-line {
+    color: lightgrey;
+    size: 2px;
+    width: 100%
+
+}
+
+
+h2 {
+  padding: 5px;
+}
+p {
+  padding: 5px;
+}
+
+.logos {
+  float: left;
+  margin: auto;
+  padding-right: 20px;
 }
